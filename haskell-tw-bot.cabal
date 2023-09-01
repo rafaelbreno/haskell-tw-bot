@@ -24,7 +24,7 @@ extra-source-files:
     README.md
 
 library
-    exposed-modules:  MyLib
+    exposed-modules:  Message
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -45,6 +45,10 @@ executable haskell-tw-bot
     -- other-extensions:
     build-depends:
         base ^>=4.16.4.0,
+        dotenv,
+        network,
+        bytestring,
+        HUnit,
         haskell-tw-bot
 
     hs-source-dirs:   app
