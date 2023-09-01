@@ -5,7 +5,7 @@ A Simple Twitch bot (IRC) written in Haskell.
 - [x] Define `.env.example`
 - [ ] Read `.env.example` and save to Struct
 ```go
-type Message {
+type Config {
     Channel  :: String
     BotName  :: String
     BotToken :: String
